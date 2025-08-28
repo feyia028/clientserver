@@ -7,7 +7,7 @@ import time
 db = mysql.connector.connect( #Connection to the database is establisheded
     host="localhost",
     user="root",
-    passwd="IloveFIFA12",
+    passwd="XXX",
     port="3306",
     database = "MessagingApp"
 )
@@ -174,4 +174,5 @@ def main_menu():
 if __name__ == '__main__':
     print(main_menu())
     
+
     
